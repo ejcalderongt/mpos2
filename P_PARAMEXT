@@ -30,8 +30,8 @@ CREATE TABLE dbo.Tmp_P_PARAMEXT
 	EMPRESA int NULL,
 	ID int NULL,
 	IDRUTA nvarchar(15) NULL,
-	Nombre nvarchar(50) NULL,
-	Valor nvarchar(50) NULL
+	NOMBRE nvarchar(50) NULL,
+	VALOR nvarchar(50) NULL
 	)  ON [PRIMARY]
 GO
 ALTER TABLE dbo.Tmp_P_PARAMEXT SET (LOCK_ESCALATION = TABLE)
