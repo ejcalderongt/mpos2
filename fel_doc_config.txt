@@ -1,4 +1,6 @@
-Documentación de campos para certificación FEL
+3 de Junio 2020
+
+DocumentaciÃ³n de campos para certificaciÃ³n FEL
 
 En la tabla P_SUCURSAL los valores se deben de guardar de esta forma
 
