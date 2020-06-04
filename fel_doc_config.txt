@@ -1,0 +1,20 @@
+Documentación de campos para certificación FEL
+
+En la tabla P_SUCURSAL los valores se deben de guardar de esta forma
+
+PET_LLAVE va el dato fel_llavews Ejemplo: "E5DC9FFBA5F3653E27DF2FC1DCAC824D"
+PET_PFX_LLAVE va el dato fel_token Ejemplo: "5b174fb0e23645b65ef88277d654603d"
+PET_PREFIJO va el dato fel_codigo  Ejemplo: "0"
+PET_ALIAS_PFX va el dato fel_alias  Ejemplo: "DEMO_FEL"
+NIT va el dato NIT  Ejemplo: "1000000000K"
+CORREO va el correo
+
+En las variables de FEL los campos de la tabla P_SUCURSAL se asignan de esta forma;
+
+llave_cert va el campo PET_LLAVE 
+llave_firma va el campo PET_PFX_LLAVE
+fel_codigo va el campo PET_PREFIJO 
+fel_alias va el campo PET_ALIAS_PFX 
+fel_nit va el campo NIT
+fel_correo va el campo CORREO
+
