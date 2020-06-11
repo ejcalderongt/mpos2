@@ -1,19 +1,20 @@
 3 de Junio 2020
 
 Documentación de campos para certificación FEL
-nit: 1000000000K
-usuario: DEMO_FEL
-llave: E5DC9FFBA5F3653E27DF2FC1DCAC824D
-alias: DEMO_FEL
-token: b21b063dec8367a4d15f4fa6dc0975bc
+COMERCIALIZADORA EXPRESS DE ORIENTE, SOCIEDAD ANONIMA
+USUARIO_FIRMA: PEXPRESS
+LLAVE_FIRMA:5d1d699b6a2bef08d9960cbf7d265f41
+USUARIO_CERTIFICACION:PEXPRESS
+LLAVE_CERTIFICACION: 7493B422E3CE97FFAB537CD6291787ED
+NIT:96049340
 
 En la tabla P_SUCURSAL en base a los valores que nos envían los datos se asignan así
 
-PET_LLAVE va el dato llave del documento
-PET_PFX_LLAVE va el dato token del documento
-PET_PREFIJO aquí va fijo "0" 
-PET_ALIAS_PFX va el dato alias del documento
-NIT va el dato nit  del documento
+PET_LLAVE va el dato LLAVE_CERTIFICACION del documento
+PET_PFX_LLAVE va el dato LLAVE_FIRMA del documento
+PET_PREFIJO aquí va el dato USUARIO_FIRMA del documento
+PET_ALIAS_PFX va el dato 'COMERCIALIZADORA EXPRESS DE ORIENTE, SOCIEDAD ANONIMA' del documento
+NIT va el dato NIT  del documento
 CORREO va el correo 
 
 En la tabla P_SUCURSAL los valores se deben de guardar de esta forma
