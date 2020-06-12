@@ -1,4 +1,5 @@
 /****** Object:  Table [dbo].[P_NIVELMEDIAPAGO]    Script Date: 11/06/2020 18:26:15 ******/
+
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
