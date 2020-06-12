@@ -12,8 +12,8 @@ En la tabla P_SUCURSAL en base a los valores que nos envían los datos se asigna
 
 PET_LLAVE va el dato LLAVE_CERTIFICACION del documento
 PET_PFX_LLAVE va el dato LLAVE_FIRMA del documento
-PET_PREFIJO aquí va el dato USUARIO_FIRMA del documento
-PET_ALIAS_PFX va el dato 'COMERCIALIZADORA EXPRESS DE ORIENTE, SOCIEDAD ANONIMA' del documento
+PET_PREFIJO aquí va un dato numérico anteriormente se mandaba 0
+PET_ALIAS_PFX va el dato USUARIO_FIRMA o USUARIO_CERTIFICACION del documento que generalmente es el mismo valor
 NIT va el dato NIT  del documento
 CORREO va el correo 
 
