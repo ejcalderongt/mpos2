@@ -6,7 +6,7 @@ GO
 CREATE TABLE [dbo].[P_CLIENTE_DIR](
 	[CODIGO_DIRECCION] [int] NOT NULL,
 	[CODIGO_CLIENTE] [int] NULL,
-	[ALIAS] [nvarchar] (25),
+	[REFERENCIA] [nvarchar] (25),
 	[CODIGO_DEPARTAMENTO] [nvarchar](15) NOT NULL,
 	[CODIGO_MUNICIPIO] [nvarchar](15) NOT NULL,	
 	[DIRECCION] [nvarchar](250) NULL,
