@@ -32,4 +32,5 @@ INSERT INTO P_PARAMEXT (EMPRESA,ID, NOMBRE, VALOR) VALUES (3,111,'Actualizacion 
 INSERT INTO P_PARAMEXT (EMPRESA,ID, NOMBRE, VALOR) VALUES (3,112,'Inventario compartido','N')
 INSERT INTO P_PARAMEXT (EMPRESA,ID, NOMBRE, VALOR) VALUES (3,113,'Recepcion de pedidos a domicilio','N')
 INSERT INTO P_PARAMEXT (EMPRESA,ID, NOMBRE, VALOR) VALUES (3,114,'Numero de impresiones de factura','1')
+INSERT INTO P_PARAMEXT (EMPRESA,ID, NOMBRE, VALOR) VALUES (3,115,'Reporte ventas por producto con codigo','1')
 
