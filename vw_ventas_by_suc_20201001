@@ -1,0 +1,7 @@
+select s.NOMBRE, s.NIT, DATEPART(M, f.FECHA) as MES, sum(f.total) as total
+from D_FACTURA f inner join P_ruta r on f.RUTA = r.CODIGO_RUTA
+inner join P_SUCURSAL s on s.CODIGO_SUCURSAL = r.SUCURSAL
+where s.EMPRESA = 2 and s.NIT in ('9662302-0','9606517-6','9664677-2','9630022-1')
+and f.ANULADO = 0
+Group by s.NOMBRE, s.NIT, DATEPART(M, f.FECHA)
+order by s.NOMBRE, s.NIT, DATEPART(M, f.FECHA)
